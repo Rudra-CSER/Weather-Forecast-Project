@@ -34,3 +34,11 @@ document.querySelector(".search button").addEventListener("click", () => {
 
 });
 
+document.querySelector(".search-bar").addEventListener("keyup", (event)=>{
+    if(event.key == "Enter"){
+        const city = document.querySelector(".search-bar").value.trim();
+        if(city){
+            weather.fetchWeather(city);
+        }
+    }
+});
