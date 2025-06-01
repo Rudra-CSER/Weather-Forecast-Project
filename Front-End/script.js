@@ -42,3 +42,6 @@ document.querySelector(".search-bar").addEventListener("keyup", (event)=>{
         }
     }
 });
+void EMpty(){
+
+}
