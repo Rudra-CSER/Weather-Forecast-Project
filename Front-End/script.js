@@ -43,5 +43,6 @@ document.querySelector(".search-bar").addEventListener("keyup", (event)=>{
     }
 });
 void EMpty(){
-
+ const hello = "Hello World";
+ console.log(hello);
 }
